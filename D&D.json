@@ -1,0 +1,97 @@
+{
+    "race": [
+        {
+            "id": 1,
+            "name": "Human",
+            "ability": "Intelligence",
+            "dark vision": false
+        },
+        {
+            "id": 2,
+            "name": "Elvish",
+            "ability": "Dexterity",
+            "dark vision": true
+        },
+        {
+            "id": 3,
+            "name": "Halfling",
+            "ability": "Dexterity",
+            "dark vision": false
+        },
+        {
+            "id": 4,
+            "name": "Dwarf",
+            "ability": "Constitution",
+            "dark vision": false
+        },
+        {
+            "id": 5,
+            "name": "Half-Orc",
+            "ability": "Strength",
+            "dark vision": true
+        }
+    ],
+
+    "class": [
+        {
+            "id": 1,
+            "name": "Barbarian",
+            "sub-class": ["wild magic, berserker"],
+            "hit dice": "1d12"
+        },
+        {
+            "id": 2,
+            "name": "Rogue",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 3,
+            "name": "Fighter",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 4,
+            "name": "Paladin",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 5,
+            "name": "Ranger",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 6,
+            "name": "Cleric",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 7,
+            "name": "Wizard",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 8,
+            "name": "Sorcerer",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 9,
+            "name": "Warlock",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 10,
+            "name": "Bard",
+            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "hit dice": "1d8"
+        }
+    ]
+}
