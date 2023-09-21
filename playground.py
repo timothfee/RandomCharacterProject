@@ -50,12 +50,20 @@ for x in range (0,5):
 clear()
 
 print("\nCharacter Sheet")
-print(f"Name: {name}")
-print(f"Race: {raceName}")
-print(f"Class: {className}")
-print(f"Strength: {strength}")
-print(f"Dexterity: {dexterity}")
-print(f"Constitution: {constitution}")
-print(f"Intelligence: {intelligence}")
-print(f"Wisdom: {wisdom}")
-print(f"Charisma: {charisma}")
+print(f"Name:           {name}")
+print(f"Race:           {raceName}")
+print(f"Class:          {className}")
+print(f"Strength:       {strength}")
+print(f"Dexterity:      {dexterity}")
+print(f"Constitution:   {constitution}")
+print(f"Intelligence:   {intelligence}")
+print(f"Wisdom:         {wisdom}")
+print(f"Charisma:       {charisma}")
+
+
+'''
+A few things I would like to add:
+- Random spells if the class chosen is a spell caster
+- Adding the stats to a list and having the user choose from that list so they can't just put whatever stat they want.
+
+'''
