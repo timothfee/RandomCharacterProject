@@ -8,13 +8,13 @@ with open("D&D.json", "r") as f:
 
 clear = lambda: os.system('cls')
 
-randIDRace = random.randint(0,4)
+rand_id_race = random.randint(0,4)
 
-randIDClass = random.randint(0,9)
+rand_id_class = random.randint(0,9)
 
-raceName = data['race'][randIDRace]['name']
+race_name = data['race'][rand_id_race]['name']
 
-className = data['class'][randIDClass]['name']
+class_name = data['class'][rand_id_class]['name']
 
 stat1 = random.randint(7,20)
 stat2 = random.randint(7,20)
@@ -23,7 +23,7 @@ stat4 = random.randint(7,20)
 stat5 = random.randint(7,20)
 stat6 = random.randint(7,20)
 
-print(f"Race: {raceName} \nClass: {className}")
+print(f"Race: {race_name} \nClass: {class_name}")
 
 for x in range (0,5):  
     b = "Rolling stats" + "." * x
@@ -51,8 +51,8 @@ clear()
 
 print("\nCharacter Sheet")
 print(f"Name:           {name}")
-print(f"Race:           {raceName}")
-print(f"Class:          {className}")
+print(f"Race:           {race_name}")
+print(f"Class:          {class_name}")
 print(f"Strength:       {strength}")
 print(f"Dexterity:      {dexterity}")
 print(f"Constitution:   {constitution}")
