@@ -36,61 +36,61 @@
         {
             "id": 1,
             "name": "Barbarian",
-            "sub-class": ["wild magic, berserker"],
+            "sub-class": ["Path of Wild Magic", "Path of The Ancestral Guardian", "Path of The Battlerager","Path of The Beast","Path of The Berserker","Path of The Storm Herald", "Path of The Totem Warrior", "Path of The Zealot"],
             "hit dice": "1d12"
         },
         {
             "id": 2,
             "name": "Rogue",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler","Phantom","Inquisitive","Assassin","Soulknife"],
             "hit dice": "1d8"
         },
         {
             "id": 3,
             "name": "Fighter",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Archer","Battle Master", "Cavalier", "Champion","Eldritch Knight", "Psi Warrior"],
             "hit dice": "1d8"
         },
         {
             "id": 4,
             "name": "Paladin",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         },
         {
             "id": 5,
             "name": "Ranger",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         },
         {
             "id": 6,
             "name": "Cleric",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         },
         {
             "id": 7,
             "name": "Wizard",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         },
         {
             "id": 8,
             "name": "Sorcerer",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         },
         {
             "id": 9,
             "name": "Warlock",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         },
         {
             "id": 10,
             "name": "Bard",
-            "sub-class": ["Arcane Trickster, Thief, Scout, Mastermind, Swashbuckler"],
+            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
             "hit dice": "1d8"
         }
     ]
