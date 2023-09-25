@@ -1,12 +1,9 @@
 import json
 import random
 import time
-import os
 
 with open("D&D.json", "r") as f:
     data = json.load(f)
-
-clear = lambda: os.system('cls')
 
 rand_id_race = random.randint(0, 4)
 
@@ -58,7 +55,6 @@ for x in range(0, 5):
     b = "Thank you! Generating character sheet" + "." * x
     print(b, end="\r")
     time.sleep(1)
-clear()
 
 print("\nCharacter Sheet")
 print(f"Name:           {name}")
