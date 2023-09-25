@@ -10,7 +10,7 @@ clear = lambda: os.system('cls')
 
 rand_id_race = random.randint(0, 4)
 
-rand_id_class = random.randint(0, 9)
+rand_id_class = random.randint(0, 11)
 
 race_name = data['race'][rand_id_race]['name']
 
@@ -18,7 +18,7 @@ class_name = data['class'][rand_id_class]['name']
 
 sub_class = data['class'][rand_id_class]['sub-class']
 
-subclass_len = len(sub_class)
+subclass_len = len(sub_class) - 1
 
 
 rand_id_subclass = random.randint(0, subclass_len)
