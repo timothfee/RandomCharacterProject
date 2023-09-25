@@ -22,12 +22,12 @@ rand_id_subclass = random.randint(0, subclass_len)
 
 subclass_name = data['class'][rand_id_class]['sub-class'][rand_id_subclass]
 
-stat1 = random.randint(7, 20)
-stat2 = random.randint(7, 20)
-stat3 = random.randint(7, 20)
-stat4 = random.randint(7, 20)
-stat5 = random.randint(7, 20)
-stat6 = random.randint(7, 20)
+stat1 = random.randint(7, 18)
+stat2 = random.randint(7, 18)
+stat3 = random.randint(7, 18)
+stat4 = random.randint(7, 18)
+stat5 = random.randint(7, 18)
+stat6 = random.randint(7, 18)
 
 stats = [stat1, stat2, stat3, stat4, stat5, stat6]
 
