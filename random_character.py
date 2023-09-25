@@ -19,8 +19,7 @@ class_name = data['class'][rand_id_class]['name']
 sub_class = data['class'][rand_id_class]['sub-class']
 
 subclass_len = len(sub_class)
-# Need to figure out how to pull length of subclass list from JSON.
-print(subclass_len)
+
 
 rand_id_subclass = random.randint(0, subclass_len)
 
@@ -34,8 +33,6 @@ stat5 = random.randint(7, 20)
 stat6 = random.randint(7, 20)
 
 stats = [stat1, stat2, stat3, stat4, stat5, stat6]
-
-print()
 
 print(f"Race: {race_name} \nClass: {class_name}\nSub-Class: {subclass_name}")
 

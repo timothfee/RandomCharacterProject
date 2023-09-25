@@ -48,49 +48,61 @@
         {
             "id": 3,
             "name": "Fighter",
-            "sub-class": ["Arcane Archer","Battle Master", "Cavalier", "Champion","Eldritch Knight", "Psi Warrior"],
+            "sub-class": ["Arcane Archer","Battle Master", "Cavalier", "Champion","Eldritch Knight", "Psi Warrior", "Purple Dragon Knight", "Rune Knight", "Samurai"],
             "hit dice": "1d8"
         },
         {
             "id": 4,
             "name": "Paladin",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["Oath of Conquest","Oath of Devotion","Oath of Redemption","Oath of Vengeance","Oath of the Ancients","Oath of the Crown", "Oath of the Watchers"],
             "hit dice": "1d8"
         },
         {
             "id": 5,
             "name": "Ranger",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["Beast Master","Fey Wanderer","Gloom Stalker","Horizon Walker","Hunter","Monster Slayer","Swarmkeeper"],
             "hit dice": "1d8"
         },
         {
             "id": 6,
             "name": "Cleric",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["Arcane Domain","Forge Domain", "Grave Domain", "knowledge Domain","Life Domain", "Light Domain", "Nature Domain", "Peace Domain", "Tempest Domain", "Trickery Domain", "Twilight Domain", "War Domain"],
             "hit dice": "1d8"
         },
         {
             "id": 7,
             "name": "Wizard",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["Order of Scribes", "Bladesinging", "School of Abjuration", "School of Conjuration", "School of Divination", "School of Enchantment", "School of Evocation", "School of Illusion", "School of Necromancy", "School of Transmutation", "War Magic"],
             "hit dice": "1d8"
         },
         {
             "id": 8,
             "name": "Sorcerer",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["Aberrant Mind", "Clockwork Soul", "Divine Soul", "Draconic Bloodline", "Shadow Magic", "Storm Sorcery", "Wild Magic"],
             "hit dice": "1d8"
         },
         {
             "id": 9,
             "name": "Warlock",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["The Archfey", "The Celestial", "The Fathomless", "The Fiend", "The Genie", "The Great Old One", "The Hexblade", "The Undead", "The Undying"],
             "hit dice": "1d8"
         },
         {
             "id": 10,
             "name": "Bard",
-            "sub-class": ["Arcane Trickster", "Thief", "Scout", "Mastermind", "Swashbuckler"],
+            "sub-class": ["College of Creation", "College of Glamour", "College of Lore", "College of Spirits", "College of Swords", "College of Valor", "College of Whispers"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 11,
+            "name": "Druid",
+            "sub-class": ["Circle of Dreams", "Circle of Stars", "Circle of Wildfire", "Circle of the Land", "Circle of the Moon", "Circle of the Shepherd"],
+            "hit dice": "1d8"
+        },
+        {
+            "id": 12,
+            "name": "Monk",
+            "sub-class": ["Way of Mercy", "Way of Shadow", "Way of the Astral Self", "Way of the Astral Self", "Way of the Four Elements", "Way of the Kensei", "Way of the Long Death", "Way of the Open Hand", "Way of the Sun Soul"],
             "hit dice": "1d8"
         }
     ]
