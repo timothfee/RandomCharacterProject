@@ -3,6 +3,7 @@ import random
 import time
 import os
 
+
 with open("D&D.json", "r") as f:
     data =json.load(f)
 
@@ -22,6 +23,8 @@ stat3 = random.randint(7,20)
 stat4 = random.randint(7,20)
 stat5 = random.randint(7,20)
 stat6 = random.randint(7,20)
+
+stats = [stat1, stat2, stat3, stat4, stat5, stat6]
 
 print(f"Race: {race_name} \nClass: {class_name}")
 
@@ -60,10 +63,9 @@ print(f"Intelligence:   {intelligence}")
 print(f"Wisdom:         {wisdom}")
 print(f"Charisma:       {charisma}")
 
-
 '''
 A few things I would like to add:
 - Random spells if the class chosen is a spell caster
 - Adding the stats to a list and having the user choose from that list so they can't just put whatever stat they want.
-
+- Print a PDF with their information on it
 '''
