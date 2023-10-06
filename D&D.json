@@ -4,19 +4,22 @@
             "id": 1,
             "name": "Human",
             "ability": "Intelligence",
-            "dark vision": false
+            "dark vision": false,
+            "score increase": "+1 Intelligence"
         },
         {
             "id": 2,
             "name": "Elvish",
             "ability": "Dexterity",
-            "dark vision": true
+            "dark vision": true,
+            "score increase": "+1 Intelligence"
         },
         {
             "id": 3,
             "name": "Halfling",
             "ability": "Dexterity",
-            "dark vision": false
+            "dark vision": false,
+            "score increase": "+1 Intelligence"
         },
         {
             "id": 4,
@@ -28,7 +31,8 @@
             "id": 5,
             "name": "Half-Orc",
             "ability": "Strength",
-            "dark vision": true
+            "dark vision": true,
+            "score increase": "+1 Intelligence"
         }
     ],
 
