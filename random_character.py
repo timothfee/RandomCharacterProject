@@ -5,7 +5,8 @@ import time
 with open("D&D.json", "r") as f:
     data = json.load(f)
 
-rand_id_race = random.randint(0, 4)
+
+rand_id_race = random.randint(0, 6)
 
 rand_id_class = random.randint(0, 11)
 
