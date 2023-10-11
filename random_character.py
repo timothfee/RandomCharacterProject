@@ -32,6 +32,12 @@ stat6 = random.randint(7, 18)
 
 stats = [stat1, stat2, stat3, stat4, stat5, stat6]
 
+# This is going to be what allows me to remove a stat from the stats list..
+def remove_number_from_list(number, my_list):
+    if number in my_list:
+        my_list.remove(number)
+
+
 print(f"Race: {race_name} \nClass: {class_name}\nSub-Class: {subclass_name}")
 
 for x in range(0, 5):
@@ -45,12 +51,12 @@ print(f"Stat 4: {stat4}")
 print(f"Stat 5: {stat5}")
 print(f"Stat 6: {stat6}")
 print("Input stats")
-strength = input("Strength: ")
-dexterity = input("Dexterity: ")
-constitution = input("Constitution: ")
-intelligence = input("Intelligence: ")
-wisdom = input("Wisdom: ")
-charisma = input("Charisma: ")
+strength = int(input("Strength: "))
+dexterity = int(input("Dexterity: "))
+constitution = int(input("Constitution: "))
+intelligence = int(input("Intelligence: "))
+wisdom = int(input("Wisdom: "))
+charisma = int(input("Charisma: "))
 name = input("Good job! Now give your character a name:\n")
 for x in range(0, 5):
     b = "Thank you! Generating character sheet" + "." * x
