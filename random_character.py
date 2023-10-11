@@ -6,7 +6,7 @@ with open("D&D.json", "r") as f:
     data = json.load(f)
 
 
-rand_id_race = random.randint(0, 6)
+rand_id_race = random.randint(0, 5)
 
 rand_id_class = random.randint(0, 11)
 
@@ -30,12 +30,25 @@ stat4 = random.randint(7, 18)
 stat5 = random.randint(7, 18)
 stat6 = random.randint(7, 18)
 
-stats = [stat1, stat2, stat3, stat4, stat5, stat6]
+stat_values = [stat1, stat2, stat3, stat4, stat5, stat6]
 
-# This is going to be what allows me to remove a stat from the stats list.
+stats = {
+    "Strength:": 10,
+    "Dexterity:": 12,
+    "Constitution:": 14,
+    "Intelligence:": 18,
+    "Wisdom:": 16,
+    "Charisma:": 20
+}
+
+max_name_length = max(len(name) for name in stats.keys())
+
+
 def remove_number_from_list(number, my_list):
     if number in my_list:
         my_list.remove(number)
+    else:
+        print(f"Error: {number} is not in the list. Please try again.")
 
 
 print(f"Race: {race_name} \nClass: {class_name}\nSub-Class: {subclass_name}")
@@ -51,12 +64,22 @@ print(f"Stat 4: {stat4}")
 print(f"Stat 5: {stat5}")
 print(f"Stat 6: {stat6}")
 print("Input stats")
-strength = int(input("Strength: "))
-dexterity = int(input("Dexterity: "))
-constitution = int(input("Constitution: "))
-intelligence = int(input("Intelligence: "))
-wisdom = int(input("Wisdom: "))
-charisma = int(input("Charisma: "))
+
+for stat_name, initial_value in stats.items():
+    while True:
+        try:
+            stat_value = int(input(f"{stat_name.capitalize()} "))
+            if stat_value in stat_values:
+                remove_number_from_list(stat_value, stat_values)
+                stats[stat_name] = stat_value
+                break
+            else:
+                print("Error: The entered number is either not in the list or has already been entered. "
+                      "\nPlease try again!")
+        except ValueError:
+            print("Error: Please enter a valid number.")
+
+
 name = input("Good job! Now give your character a name:\n")
 for x in range(0, 5):
     b = "Thank you! Generating character sheet" + "." * x
@@ -64,15 +87,12 @@ for x in range(0, 5):
     time.sleep(1)
 
 print("\nCharacter Sheet")
-print(f"Name:           {name}")
-print(f"Race:           {race_name}")
-print(f"Class:          {class_name}")
-print(f"Strength:       {strength}")
-print(f"Dexterity:      {dexterity}")
-print(f"Constitution:   {constitution}")
-print(f"Intelligence:   {intelligence}")
-print(f"Wisdom:         {wisdom}")
-print(f"Charisma:       {charisma}")
+print(f"Name:             {name}")
+print(f"Race:             {race_name}")
+print(f"Class:            {class_name}")
+for stat_name, stat_value in stats.items():
+    print(f"{stat_name.ljust(max_name_length)}     {stat_value}")
+
 
 '''
 A few things I would like to add:
