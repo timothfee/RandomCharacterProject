@@ -32,7 +32,7 @@ stat6 = random.randint(7, 18)
 
 stats = [stat1, stat2, stat3, stat4, stat5, stat6]
 
-# This is going to be what allows me to remove a stat from the stats list..
+# This is going to be what allows me to remove a stat from the stats list.
 def remove_number_from_list(number, my_list):
     if number in my_list:
         my_list.remove(number)
