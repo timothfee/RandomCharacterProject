@@ -53,7 +53,8 @@ print(f"Stat 3: {stat3}")
 print(f"Stat 4: {stat4}")
 print(f"Stat 5: {stat5}")
 print(f"Stat 6: {stat6}")
-print("Input stats")
+
+print("Input stats values:")
 
 
 # Method to remove stat from list when it is selected
@@ -93,6 +94,33 @@ print(f"Class:            {class_name}")
 for stat_name, stat_value in stats.items():
     print(f"{stat_name.ljust(max_name_length)}     {stat_value}")
 
+print('''\n
+
+       .ed"""" """$$$$be.
+     -"           ^""**$$$e.
+   ."                   '$$$c
+  /                      "4$$b
+ d  3                      $$$$
+ $  *                   .$$$$$$
+.$  ^c           $$$$$e$$$$$$$$.
+d$L  4.         4$$$$$$$$$$$$$$b
+$$$$b ^ceeeee.  4$$ECL.F*$$$$$$$
+$$$$P d$$$$F $ $$$$$$$$$- $$$$$$
+3$$$F "$$$$b   $"$$$$$$$  $$$$*"
+ $$P"  "$$b   .$ $$$$$...e$$
+  *c    ..    $$ 3$$$$$$$$$$eF
+    %ce""    $$$  $$$$$$$$$$*
+     *$e.    *** d$$$$$"L$$
+      $$$      4J$$$$$% $$$
+     $"'$=e....$*$$**$cz$$"
+     $  *=%4.$ L L$ P3$$$F
+     $   "%*ebJLzb$e$$$$$b
+      %..      4$$$$$$$$$$
+       $$$e   z$$$$$$$$$$
+        "*$c  "$$$$$$$P"
+          """*$$$$$$$"
+
+''')
 
 '''
 A few things I would like to add:
