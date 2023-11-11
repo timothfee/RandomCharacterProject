@@ -5,24 +5,19 @@ import time
 with open("D&D.json", "r") as f:
     data = json.load(f)
 
-
+# Race
 rand_id_race = random.randint(0, 5)
-
-rand_id_class = random.randint(0, 11)
-
 race_name = data['race'][rand_id_race]['name']
 
+# Class and Sub-Class
+rand_id_class = random.randint(0, 11)
 class_name = data['class'][rand_id_class]['name']
-
 sub_class = data['class'][rand_id_class]['sub-class']
-
 subclass_len = len(sub_class) - 1
-
-
 rand_id_subclass = random.randint(0, subclass_len)
-
 subclass_name = data['class'][rand_id_class]['sub-class'][rand_id_subclass]
 
+# Stats
 stat1 = random.randint(7, 18)
 stat2 = random.randint(7, 18)
 stat3 = random.randint(7, 18)
@@ -33,23 +28,25 @@ stat6 = random.randint(7, 18)
 stat_values = [stat1, stat2, stat3, stat4, stat5, stat6]
 
 stats = {
-    "Strength:": 10,
-    "Dexterity:": 12,
-    "Constitution:": 14,
-    "Intelligence:": 18,
-    "Wisdom:": 16,
-    "Charisma:": 20
+    "Strength:":        0,
+    "Dexterity:":       0,
+    "Constitution:":    0,
+    "Intelligence:":    0,
+    "Wisdom:":          0,
+    "Charisma:":        0
 }
 
 max_name_length = max(len(name) for name in stats.keys())
 
-
+# Printing results of random race, class and sub-class
 print(f"Race: {race_name} \nClass: {class_name}\nSub-Class: {subclass_name}")
 
 for x in range(0, 5):
     b = "Rolling stats" + "." * x
     print(b, end="\r")
     time.sleep(1)
+
+# Printing stats
 print(f"\nStat 1: {stat1}")
 print(f"Stat 2: {stat2}")
 print(f"Stat 3: {stat3}")
@@ -59,6 +56,7 @@ print(f"Stat 6: {stat6}")
 print("Input stats")
 
 
+# Method to remove stat from list when it is selected
 def remove_number_from_list(number, my_list):
     if number in my_list:
         my_list.remove(number)
@@ -66,6 +64,7 @@ def remove_number_from_list(number, my_list):
         print(f"Error: {number} is not in the list or has already been used. Please try again.")
 
 
+# Checking stat entries to make sure they have not been used and making sure they exist in the list
 for stat_name, initial_value in stats.items():
     while True:
         try:
@@ -75,7 +74,8 @@ for stat_name, initial_value in stats.items():
                 stats[stat_name] = stat_value
                 break
             else:
-                print("Error: The entered number is either not in the list or has already been entered. \nPlease try again!")
+                print("Error: The entered number is either not in the list or has already been entered."
+                      "\nPlease try again!")
         except ValueError:
             print("Error: Please enter a valid number.")
 
@@ -85,6 +85,7 @@ for x in range(0, 5):
     print(b, end="\r")
     time.sleep(1)
 
+# Printing the character sheet
 print("\nCharacter Sheet")
 print(f"Name:             {name}")
 print(f"Race:             {race_name}")
