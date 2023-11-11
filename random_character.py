@@ -44,13 +44,6 @@ stats = {
 max_name_length = max(len(name) for name in stats.keys())
 
 
-def remove_number_from_list(number, my_list):
-    if number in my_list:
-        my_list.remove(number)
-    else:
-        print(f"Error: {number} is not in the list. Please try again.")
-
-
 print(f"Race: {race_name} \nClass: {class_name}\nSub-Class: {subclass_name}")
 
 for x in range(0, 5):
@@ -65,6 +58,14 @@ print(f"Stat 5: {stat5}")
 print(f"Stat 6: {stat6}")
 print("Input stats")
 
+
+def remove_number_from_list(number, my_list):
+    if number in my_list:
+        my_list.remove(number)
+    else:
+        print(f"Error: {number} is not in the list or has already been used. Please try again.")
+
+
 for stat_name, initial_value in stats.items():
     while True:
         try:
@@ -74,11 +75,9 @@ for stat_name, initial_value in stats.items():
                 stats[stat_name] = stat_value
                 break
             else:
-                print("Error: The entered number is either not in the list or has already been entered. "
-                      "\nPlease try again!")
+                print("Error: The entered number is either not in the list or has already been entered. \nPlease try again!")
         except ValueError:
             print("Error: Please enter a valid number.")
-
 
 name = input("Good job! Now give your character a name:\n")
 for x in range(0, 5):
