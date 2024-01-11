@@ -111,5 +111,192 @@
             "sub-class": ["Way of Mercy", "Way of Shadow", "Way of the Astral Self", "Way of the Astral Self", "Way of the Four Elements", "Way of the Kensei", "Way of the Long Death", "Way of the Open Hand", "Way of the Sun Soul"],
             "hit dice": "1d8"
         }
+        ],
+    "spell-list": [
+        {
+            "id": 4,
+            "name": "Paladin",
+            "spells": [
+                "Bless",
+                "Command",
+                "Compelled Duel",
+                "Cure Wounds",
+                "Detect Evil and Good",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Divine Favor",
+                "Heroism",
+                "Protection from Evil and Good",
+                "Purify Food and Drink",
+                "Searing Smite",
+                "Shield",
+                "Thunderous Smite",
+                "Wrathful Smite"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Ranger",
+            "spells": [
+                "Alarm",
+                "Animal Friendship",
+                "Cure Wounds",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Ensnaring Strike",
+                "Fog Cloud",
+                "Goodberry",
+                "Hail of Thorns",
+                "Hunter's Mark",
+                "Jump",
+                "Longstrider",
+                "Speak with Animals"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Cleric",
+            "spells": [
+                "Bane",
+                "Bless",
+                "Command",
+                "Cure Wounds",
+                "Detect Evil and Good",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Guiding Bolt",
+                "Healing Word",
+                "Inflict Wounds",
+                "Protection from Evil and Good",
+                "Purify Food and Drink",
+                "Sanctuary",
+                "Shield of Faith"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Wizard",
+            "spells": [
+                "Alarm",
+                "Burning Hands",
+                "Charm Person",
+                "Chromatic Orb",
+                "Color Spray",
+                "Comprehend Languages",
+                "Detect Magic",
+                "Disguise Self",
+                "Expeditious Retreat",
+                "False Life",
+                "Feather Fall",
+                "Find Familiar",
+                "Fog Cloud",
+                "Grease",
+                "Identify",
+                "Illusory Script",
+                "Jump",
+                "Mage Armor",
+                "Magic Missile",
+                "Ray of Sickness",
+                "Shield",
+                "Silent Image",
+                "Sleep",
+                "Tasha's Hideous Laughter",
+                "Thunderwave",
+                "Unseen Servant",
+                "Witch Bolt"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Sorcerer",
+            "spells": [
+                "Burning Hands",
+                "Charm Person",
+                "Chromatic Orb",
+                "Color Spray",
+                "Comprehend Languages",
+                "Detect Magic",
+                "Disguise Self",
+                "Expeditious Retreat",
+                "False Life",
+                "Feather Fall",
+                "Fog Cloud",
+                "Jump",
+                "Mage Armor",
+                "Magic Missile",
+                "Ray of Sickness",
+                "Shield",
+                "Silent Image",
+                "Sleep",
+                "Thunderwave",
+                "Witch Bolt"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Warlock",
+            "spells": [
+                "Armor of Agathys",
+                "Arms of Hadar",
+                "Charm Person",
+                "Comprehend Languages",
+                "Expeditious Retreat",
+                "Hellish Rebuke",
+                "Hex",
+                "Illusory Script",
+                "Protection from Evil and Good",
+                "Unseen Servant",
+                "Witch Bolt"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Bard",
+            "spells": [
+                "Animal Friendship",
+                "Bane",
+                "Charm Person",
+                "Comprehend Languages",
+                "Cure Wounds",
+                "Detect Magic",
+                "Disguise Self",
+                "Faerie Fire",
+                "Feather Fall",
+                "Healing Word",
+                "Heroism",
+                "Identify",
+                "Illusory Script",
+                "Longstrider",
+                "Silent Image",
+                "Sleep",
+                "Speak with Animals",
+                "Tasha's Hideous Laughter",
+                "Thunderwave",
+                "Unseen Servant"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Druid",
+            "spells": [
+                "Animal Friendship",
+                "Charm Person",
+                "Create or Destroy Water",
+                "Cure Wounds",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Entangle",
+                "Faerie Fire",
+                "Fog Cloud",
+                "Goodberry",
+                "Healing Word",
+                "Jump",
+                "Longstrider",
+                "Purify Food and Drink",
+                "Speak with Animals",
+                "Thunderwave"
+            ]
+        }
+
     ]
 }
