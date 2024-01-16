@@ -1,4 +1,3 @@
-
 __author__ = "Timothy D.S. Fee"
 __version__ = "0.1.0"
 
